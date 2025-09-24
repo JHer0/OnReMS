@@ -1,0 +1,48 @@
+#titlebar {
+    position:fix;
+    top: 0px;
+  }
+  #searchbar{
+    position:fixed;
+    top: 100px;
+    left: 17.5%;
+    width:83%;
+    height:60px;
+    background: rgb(255, 255, 255);
+    z-index:10;
+    
+  }
+  #searchBarInput{
+    position:fixed;
+    top:110px;
+    right:10px;
+    width:20%;
+  }
+  #sidebarMenu{
+    border-right: solid 1px; /*for testing. must remove*/
+    position:fixed;
+    left:0px;
+    top:100px;
+    overflow:auto;
+    height:100%;
+  }  
+  
+  #mainDisplay {
+      position: relative;
+      top: 65px;
+  }
+
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+  
+  
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }

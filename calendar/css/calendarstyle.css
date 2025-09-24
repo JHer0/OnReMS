@@ -1,0 +1,66 @@
+body {
+    padding-top: 70px;
+   background-image: url(../../Images/bg3.jpg);
+}
+#calendar {
+    max-width: 1300px;
+}
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.tooltip{
+    width:auto;
+    height:20%;
+    color:black;
+    background:#E5E5E5;
+    position:absolute;
+    z-index:10001;
+    border-radius:5px;
+    top: -300%;
+    left:50%;
+    padding:5px 10px;
+    margin-left:-60px;
+    bottom: 150%;
+    font-size: 15px;
+}
+.colors{
+    font-size: 14px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    background: white;
+
+    height:500px;
+    width: 15%;
+    margin: 0px 0px;
+     padding: 0px 0px;
+
+}
+.colors-div{
+font-size: 14px;
+background: white;
+/*border-style: solid;
+border-width: 3px;
+border-color: #C6CFD6;
+border-radius:20px; */
+padding: 5px;
+}
+.colors-header{
+margin: 0 auto;
+background-color:#379441;
+width: 115%;
+height: 9%;
+padding: 10px;
+border-style: solid;
+border-top-left-radius: 18px;
+border-top-right-radius: 18px;
+border-color: transparent;
+margin-left: -15px;
+}
+.color-scheme-text{
+font-size: 14px;
+
+}
+.color-text{
+font-size: 10px;
+
+}
